@@ -13,7 +13,7 @@ for file in os.listdir():
         if os.path.getsize(file) > 0:
             files.append(file)
 
-secret_phrase = "Vishwa"
+secret_phrase = "Password123"
 user_entry = input("Enter the secret code to decrypt your files: ")
 
 if user_entry == secret_phrase:
